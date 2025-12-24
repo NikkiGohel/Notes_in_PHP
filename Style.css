@@ -1,0 +1,77 @@
+.btn-transparent {
+    background-color: transparent;
+    border: 1px solid #366a36;
+    color: #3e733eea;
+    transition: background-color 0.3s ease;
+}
+
+.bg-body-tertiary {
+    background-color: #2a2c2e !important;
+}
+
+.navbar-brand {
+    color: rgb(255 253 253);
+}
+
+
+
+/* Center the content with 80% width */
+.hr-center {
+    border: 1px solid black;
+    width: 80%;
+    margin-top: 65px;
+}
+
+.btn-custom {
+    height: 75px;
+    line-height: 75px; /* Centers the text vertically */
+    padding: 0 20px; /* Adjust horizontal padding as needed */
+    font-size: 1rem; /* Adjust font size if needed */
+}
+
+/* Transparent button styling */
+.btn-transparent {
+    background: transparent;
+    border: 1px solid green;
+}
+
+.btn-transparent:hover {
+    background-color: rgb(41, 62, 41); /* Light background on hover */
+}
+.password-field {
+    position: relative;
+}
+
+.password-toggle-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8ecd6;
+    height: 100vh;
+}
+
+.password-container {
+    gap: 10px;
+}
+
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    padding-right: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.toggle-password {
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+}
